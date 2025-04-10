@@ -1,1 +1,119 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    line-height: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+body {
+    overflow-x: hidden;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-\[url\(https\:\/\/crickexbrand\.com\/wp-content\/uploads\/2023\/08\/banner-bg\.png\)\] {
+    background-image: url(https://crickexbrand.com/wp-content/uploads/2023/08/banner-bg.png);
+}
+.bg-body {
+    background-color: #1E549C;
+}
+.relative {
+    position: relative;
+}
+
+.relative {
+    position: relative;
+}
+.header {
+    background-color: var(--go-header--color--background);
+    z-index: 99;
+}
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.border-\[\#0080EA\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(0 128 234 / var(--tw-border-opacity, 1));
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.max-w-screen-2xl {
+    max-width: 1536px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex
+;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relative {
+    position: relative;
+}
+.relative {
+    position: relative;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.w-full {
+    width: 100%;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex
+;
+}
+.h-inherit {
+    height: inherit;
+}
+.border-\[\#0080EA\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(0 128 234 / var(--tw-border-opacity, 1));
+}
+@media only screen and (min-width: 782px) {
+    .header__inner {
+        padding-bottom: var(--go-header--padding--y, var(--go-block--padding--x));
+        padding-top: var(--go-header--padding--y, var(--go-block--padding--x));
+    }
+}
+.header__inner {
+    padding: 2vw var(--go-header--padding--x, var(--go-block--padding--x));
+}
