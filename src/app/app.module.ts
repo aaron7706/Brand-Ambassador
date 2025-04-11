@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { BradingPageOneComponent } from './brading-page-one/brading-page-one.component';
 import { MainComponent } from './main/main.component';
 import { PoriMoniComponent } from './pori-moni/pori-moni.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { PoriMoniComponent } from './pori-moni/pori-moni.component';
     BradingPageOneComponent,
     MainComponent,
     PoriMoniComponent,
+    FooterComponent,
   
   ],
   imports: [
