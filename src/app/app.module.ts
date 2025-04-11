@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BradingPageOneComponent } from './brading-page-one/brading-page-one.component';
+import { MainComponent } from './main/main.component';
+import { PoriMoniComponent } from './pori-moni/pori-moni.component';
 
 
 @NgModule({
@@ -12,6 +14,8 @@ import { BradingPageOneComponent } from './brading-page-one/brading-page-one.com
     AppComponent,
     HeaderComponent,
     BradingPageOneComponent,
+    MainComponent,
+    PoriMoniComponent,
   
   ],
   imports: [

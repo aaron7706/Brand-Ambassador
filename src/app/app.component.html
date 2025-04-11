@@ -1,4 +1,18 @@
-<app-header>
+<!-- src/app/app.component.html -->
+<div id="page" class="site">
+  <a class="skip-link screen-reader-text" href="#site-content">Skip to content</a>
 
-</app-header>
-<app-brading-page-one></app-brading-page-one>
+  <main id="site-content" class="site-content" role="main">
+    <section
+      class="banner-section  bg-body bg-no-repeat bg-cover"
+      [ngStyle]="{ 'background-image': 'url(assets/images/banner-bg.png)' }"
+    >
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+
+    </section>
+ 
+
+  </main>
+</div>
+
