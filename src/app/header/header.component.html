@@ -36,21 +36,21 @@
                 </div>
             </div>
             <div class="social-icons lg:flex items-center hidden">
-                <a class="w-14 h-14" href="https://twitter.com/crickex_info" target="_blank">
-                    <img src="https://crickexbrand.com/wp-content/uploads/2023/08/twitter.png"
-                        alt="https://crickexbrand.com/wp-content/uploads/2023/08/footer-logo.png">
+                <a class="w-14 h-14" *ngIf="respData?.TWITTER" [href]="respData.TWITTER"target="_blank">
+                    <img src="assets/images/icons/twitter.png"
+                       alt="footer-logo.png">
                 </a>
-                <a class="w-14 h-14" href="https://www.facebook.com/Crickexinfo" target="_blank">
-                    <img src="https://crickexbrand.com/wp-content/uploads/2023/08/facebook.png"
-                        alt="https://crickexbrand.com/wp-content/uploads/2023/08/footer-logo.png">
+                <a class="w-14 h-14"*ngIf="respData?.FACEBOOK" [href]="respData.FACEBOOK" target="_blank">
+                    <img src="assets/images/icons/facebook.png"
+                       alt="footer-logo.png">
                 </a>
-                <a class="w-14 h-14" href="https://www.instagram.com/crickexinfo/" target="_blank">
-                    <img src="https://crickexbrand.com/wp-content/uploads/2023/08/instagram.png"
-                        alt="https://crickexbrand.com/wp-content/uploads/2023/08/footer-logo.png">
+                <a class="w-14 h-14"  *ngIf="respData?.INSTAGRAM" [href]="respData.INSTAGRAM" target="_blank">
+                    <img src="assets/images/icons/instagram.png"
+                       alt="footer-logo.png">
                 </a>
-                <a class="w-14 h-14" href="https://t.me/crickexofficial" target="_blank">
-                    <img src="https://crickexbrand.com/wp-content/uploads/2023/08/telegram.png"
-                        alt="https://crickexbrand.com/wp-content/uploads/2023/08/footer-logo.png">
+                <a class="w-14 h-14" *ngIf="respData?.TELEGRAM" [href]="respData.TELEGRAM" target="_blank">
+                    <img src="assets/images/icons/telegram.png"
+                       alt="footer-logo.png">
                 </a>
             </div>
         </div>

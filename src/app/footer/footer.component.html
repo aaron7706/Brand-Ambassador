@@ -7,16 +7,16 @@
             <a href="/" target="_blank"><p class="text-monda text-white text-base underline underline-offset-4 lg:text-left text-center lg:mb-0 mb-6"> Affiliate</p></a>
         </div>
         <div class="social-icons flex items-center lg:mb-0 mb-4">
-                <a href="" target="_blank">
+                <a *ngIf="respData?.TWITTER" [href]="respData.TWITTER" target="_blank">
                     <img src="assets/images/icons/twitter-1.png" alt="twitter-1.png">
                 </a>
-                <a href="" target="_blank">
+                <a *ngIf="respData?.FACEBOOK" [href]="respData.FACEBOOK" target="_blank">
                     <img src="assets/images/icons/facebook-1.png" alt="facebook-1.png">
                 </a>
-                <a href="" target="_blank">
+                <a *ngIf="respData?.INSTAGRAM" [href]="respData.INSTAGRAM" target="_blank">
                     <img src="assets/images/icons/instagram-1.png" alt="instagram-1.png">
                 </a>
-                <a href="" target="_blank">
+                <a *ngIf="respData?.TELEGRAM" [href]="respData.TELEGRAM" target="_blank">
                     <img src="assets/images/icons/telegram2.png" alt="telegram2.png">
                 </a>
             </div>
