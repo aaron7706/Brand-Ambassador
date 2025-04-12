@@ -1,4 +1,5 @@
 /*! This file is auto-generated */
+
 .wp-block-button__link {
     color: #fff;
     background-color: #32373c;
@@ -1327,19 +1328,19 @@ video {
 /* font styles */
 @font-face {
     font-family: "Mazzard";
-    src: url("/wp-content/themes/go-child/fonts/mazzard/MazzardH-Black.otf") format("opentype");
+    src: url("assets/fonts/Mazzard/mazzard.otf") format("opentype");
 }
 @font-face {
     font-family: "IrinaC";
-    src: url("/wp-content/themes/go-child/fonts/irinac/IrinaC.otf") format("opentype");
+    src: url("assets/fonts/irinac/IrinaC.otf") format("opentype");
 }
 @font-face {
     font-family: "Inter";
-    src: url("/wp-content/themes/go-child/fonts/Inter/Inter-Regular.ttf") format("truetype");
+    src: url("assets/fonts/inter/Inter-Regular.otf") format("truetype");
 }
 @font-face {
     font-family: "Monda";
-    src: url("/wp-content/themes/go-child/fonts/Monda/Monda-Regular.ttf") format("truetype");
+    src: url("assets/fonts/monda/MondaRegular.woff") format("truetype");
 }
 
 
@@ -1350,6 +1351,7 @@ video {
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: "Monda";
     position: relative;
