@@ -874,7 +874,7 @@ video {
 }
 
 .max-w-5xl {
-    max-width: 64rem
+    max-width :20rem !important
 }
 
 .max-w-screen-2xl {
@@ -1187,7 +1187,7 @@ video {
     }
 
     .lg\:mt-\[-20px\] {
-        margin-top: -20px
+        margin-top: 20px !important
     }
 
     .lg\:mt-\[-220px\] {
@@ -8247,3 +8247,4 @@ div[class*=wp-block].mb-0 {
 .wp-block-coblocks-food-item__attributes {
     top: 0
 }
+
