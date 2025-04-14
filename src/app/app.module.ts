@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { PoriMoniComponent } from './pori-moni/pori-moni.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NadiaAfrinMinComponent } from './nadia-afrin-min/nadia-afrin-min.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     MainComponent,
     PoriMoniComponent,
     FooterComponent,
+    NadiaAfrinMinComponent,
   
   ],
   imports: [

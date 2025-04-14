@@ -802,7 +802,7 @@ video {
 }
 
 .mb-6 {
-    margin-bottom: 1.5rem
+    margin-bottom: 2.5rem !important
 }
 
 .ml-7 {
@@ -874,7 +874,7 @@ video {
 }
 
 .max-w-5xl {
-    max-width :20rem !important
+    max-width :14rem !important
 }
 
 .max-w-screen-2xl {
@@ -1137,6 +1137,9 @@ video {
 }
 
 @media (min-width: 1024px) {
+    .max-w-5xl {
+        max-width: 19rem !important;
+    }
     .lg\:w-5\/6 {
         width: 83.333333%;
         margin: 12rem 4rem 12rem 0rem !important;
@@ -1163,7 +1166,8 @@ video {
     }
 
     .lg\:ml-14 {
-        margin-left: 3.5rem
+        margin-left: 3.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .lg\:ml-\[-28px\] {
@@ -1187,7 +1191,7 @@ video {
     }
 
     .lg\:mt-\[-20px\] {
-        margin-top: 20px !important
+        margin-top: 20px 
     }
 
     .lg\:mt-\[-220px\] {
@@ -8248,3 +8252,6 @@ div[class*=wp-block].mb-0 {
     top: 0
 }
 
+.w-\[1777px\] {
+    width: 240px !important;
+}
