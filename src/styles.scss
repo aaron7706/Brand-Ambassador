@@ -1137,6 +1137,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+    .lg\:w-5\/6 {
+        width: 83.333333%;
+        margin: 12rem 4rem 12rem 0rem !important;
+    }
+    .mt-b {
+        width: 83.333333% !important;
+        margin: 22rem 4rem 12rem 0rem !important;
+    }
     .lg\:top-\[55\%\] {
         top: 55%
     }
