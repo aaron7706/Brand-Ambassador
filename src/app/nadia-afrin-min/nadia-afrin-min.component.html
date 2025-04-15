@@ -160,11 +160,10 @@
 	</div>
 
 
-	<div class="max-w-5xl mx-auto px-5">
-		<!-- <iframe src="https://crickexbd.com/wp-content/uploads/2024/09/Announcement-karthik.mp4"
-			class="w-full lg:h-[30rem] h-[20rem]">
-		</iframe> -->
-		<video class="w-full lg:h-[30rem] h-[20rem]" controls  poster="assets/images/players-images/nadia-video-thumbnail.webp">
+	<div class="max-w-5xl mx-auto px-5" appIntersectionObserver>
+	
+		<video class="w-full lg:h-[30rem] h-[20rem]" controls  poster="assets/images/players-images/nadia-video-thumbnail.webp" playsinline autoplay #videoPlayer
+		(loadedmetadata)=onVideoLoad(videoPlayer)>
 			<source src="assets/videos/nadia-intro-video.mp4" type="video/mp4">
 		
 		  </video>
