@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BradingPageOneComponent } from './brading-page-one/brading-page-one.component';
 import { MainComponent } from './main/main.component';
-import { PoriMoniComponent } from './pori-moni/pori-moni.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NadiaAfrinMinComponent } from './nadia-afrin-min/nadia-afrin-min.component';
@@ -20,7 +19,6 @@ import { NadiaAfrinMinComponent } from './nadia-afrin-min/nadia-afrin-min.compon
     HeaderComponent,
     BradingPageOneComponent,
     MainComponent,
-    PoriMoniComponent,
     FooterComponent,
     NadiaAfrinMinComponent,
   
