@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +11,8 @@ import { PoriMoniComponent } from './pori-moni/pori-moni.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NadiaAfrinMinComponent } from './nadia-afrin-min/nadia-afrin-min.component';
+
+
 
 @NgModule({
   declarations: [
@@ -24,6 +27,7 @@ import { NadiaAfrinMinComponent } from './nadia-afrin-min/nadia-afrin-min.compon
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     AppRoutingModule,
     HttpClientModule
   ],
