@@ -1,13 +1,13 @@
-let siteName = "play25news";
+let siteName = "play25brand";
 let origin = "";
 let domain = "";
 let hostname = window.origin;
 
 
-if (hostname.indexOf('play25news.com') > -1 || hostname.indexOf('test.play25news.com') > -1 ) {
-    siteName = 'play25news';
-    domain = "play25news.com";
-    origin = "play25news.com";
+if (hostname.indexOf('play25brand.com') > -1 ) {
+    siteName = 'play25brand';
+    domain = "play25brand.com";
+    origin = "play25brand.com";
 }
 
 
