@@ -992,7 +992,8 @@ video {
 
 .px-10 {
     padding-left: 2.5rem;
-    padding-right: 2.5rem
+    padding-right: 2.5rem;
+    // padding-bottom: 2.5rem;
 }
 
 .px-3 {
@@ -1040,7 +1041,8 @@ video {
 }
 
 .pt-\[38px\] {
-    padding-top: 38px
+    padding-top: 38px;
+    padding-bottom: 20px;
 }
 
 .text-center {
@@ -1167,7 +1169,7 @@ video {
 
     .lg\:ml-14 {
         margin-left: 3.5rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2.5rem !important;
     }
 
     .lg\:ml-\[-28px\] {
@@ -8253,5 +8255,9 @@ div[class*=wp-block].mb-0 {
 }
 
 .w-\[1777px\] {
-    width: 240px !important;
+    width: 314px !important;
+}
+
+.lg\:ml-14 {
+    margin-bottom: 1.5rem;
 }
