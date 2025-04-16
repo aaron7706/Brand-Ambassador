@@ -9,7 +9,7 @@ import { BradingPageOneComponent } from './brading-page-one/brading-page-one.com
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
-import { NadiaAfrinMinComponent } from './nadia-afrin-min/nadia-afrin-min.component';
+import { NadiaAfrinMimComponent } from './nadia-afrin-mim/nadia-afrin-mim.component';
 
 
 
@@ -20,7 +20,7 @@ import { NadiaAfrinMinComponent } from './nadia-afrin-min/nadia-afrin-min.compon
     BradingPageOneComponent,
     MainComponent,
     FooterComponent,
-    NadiaAfrinMinComponent,
+    NadiaAfrinMimComponent,
   
   ],
   imports: [

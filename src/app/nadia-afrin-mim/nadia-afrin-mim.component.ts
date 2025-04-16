@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-nadia-afrin-min',
-  templateUrl: './nadia-afrin-min.component.html',
-  styleUrls: ['./nadia-afrin-min.component.scss']
+  selector: 'app-nadia-afrin-mim',
+  templateUrl: './nadia-afrin-mim.component.html',
+  styleUrls: ['./nadia-afrin-mim.component.scss']
 })
-export class NadiaAfrinMinComponent {
+export class NadiaAfrinMimComponent {
   videoElement: HTMLVideoElement | undefined;
   onVideoLoad(video: HTMLVideoElement): void {
     this.videoElement = video;
@@ -30,5 +30,4 @@ export class NadiaAfrinMinComponent {
     }, options);
     observer.observe(this.videoElement as Element);
   }
-  
 }
