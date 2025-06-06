@@ -10,6 +10,7 @@ import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NadiaAfrinMimComponent } from './nadia-afrin-mim/nadia-afrin-mim.component';
+import { BradingPageTwoComponent } from './brading-page-two/brading-page-two.component';
 
 
 
@@ -21,6 +22,7 @@ import { NadiaAfrinMimComponent } from './nadia-afrin-mim/nadia-afrin-mim.compon
     MainComponent,
     FooterComponent,
     NadiaAfrinMimComponent,
+    BradingPageTwoComponent,
   
   ],
   imports: [
