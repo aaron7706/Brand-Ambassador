@@ -9,7 +9,7 @@ import { BradingPageTwoComponent } from './brading-page-two/brading-page-two.com
 const routes: Routes = [
   { path: '', redirectTo: '', pathMatch: 'full' },
   {path: '', component: BradingPageOneComponent},
-  {path: 'brandingtwo', component: BradingPageTwoComponent},
+  {path: 'Peya-bipasha', component: BradingPageTwoComponent},
   {path: 'main', component: MainComponent},
   {path: 'nadia-afrin-mim', component: NadiaAfrinMimComponent}
   
