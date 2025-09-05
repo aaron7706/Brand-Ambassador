@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NadiaAfrinMimComponent } from './nadia-afrin-mim/nadia-afrin-mim.component';
 import { BradingPageTwoComponent } from './brading-page-two/brading-page-two.component';
+import { BrandingPageThreeComponent } from './branding-page-three/branding-page-three.component';
+import { BrandingPageFourComponent } from './branding-page-four/branding-page-four.component';
 
 
 
@@ -23,6 +25,8 @@ import { BradingPageTwoComponent } from './brading-page-two/brading-page-two.com
     FooterComponent,
     NadiaAfrinMimComponent,
     BradingPageTwoComponent,
+    BrandingPageThreeComponent,
+    BrandingPageFourComponent,
   
   ],
   imports: [
