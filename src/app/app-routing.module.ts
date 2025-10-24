@@ -6,6 +6,8 @@ import { NadiaAfrinMimComponent } from './nadia-afrin-mim/nadia-afrin-mim.compon
 import { BradingPageTwoComponent } from './brading-page-two/brading-page-two.component';
 import { BrandingPageThreeComponent } from './branding-page-three/branding-page-three.component';
 import { BrandingPageFourComponent } from './branding-page-four/branding-page-four.component';
+import { BrandingPageFiveComponent } from './branding-page-five/branding-page-five.component';
+import { BrandingPageSixComponent } from './branding-page-six/branding-page-six.component';
 
 
 const routes: Routes = [
@@ -15,7 +17,9 @@ const routes: Routes = [
   {path: 'main', component: MainComponent},
   {path: 'nadia-afrin-mim', component: NadiaAfrinMimComponent},
   {path:'nirab-hossain', component: BrandingPageThreeComponent},
-  {path:'maira-shanto', component:BrandingPageFourComponent}
+  {path:'maira-shanto', component:BrandingPageFourComponent},
+  {path:'samonty-shoumi', component:BrandingPageFiveComponent},
+  {path:'anika-kabir-shokh', component:BrandingPageSixComponent}
   
  
 ];

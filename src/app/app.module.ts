@@ -13,6 +13,8 @@ import { NadiaAfrinMimComponent } from './nadia-afrin-mim/nadia-afrin-mim.compon
 import { BradingPageTwoComponent } from './brading-page-two/brading-page-two.component';
 import { BrandingPageThreeComponent } from './branding-page-three/branding-page-three.component';
 import { BrandingPageFourComponent } from './branding-page-four/branding-page-four.component';
+import { BrandingPageFiveComponent } from './branding-page-five/branding-page-five.component';
+import { BrandingPageSixComponent } from './branding-page-six/branding-page-six.component';
 
 
 
@@ -27,6 +29,8 @@ import { BrandingPageFourComponent } from './branding-page-four/branding-page-fo
     BradingPageTwoComponent,
     BrandingPageThreeComponent,
     BrandingPageFourComponent,
+    BrandingPageFiveComponent,
+    BrandingPageSixComponent
   
   ],
   imports: [
