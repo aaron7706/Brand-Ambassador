@@ -10,8 +10,8 @@
         <div class="header__title-nav flex items-center flex-nowrap flex-none order-none">
 
             <div class="header__titles lg:flex items-center" itemscope="" itemtype="http://schema.org/Organization">
-                <h1 class="custom-logo"><a href="/" class="custom-logo-link" rel="home"
-                        aria-current="page"><img width="227" height="36" src="assets/images/logo-play25.webp" class="custom-logo"
+                <h1 class="custom-logo"><a href="/" class="custom-logo-link" rel="home" aria-current="page"><img
+                            width="227" height="36" src="assets/images/logo-play25.webp" class="custom-logo"
                             alt="play25brand" decoding="async"></a></h1>
             </div>
 
@@ -21,7 +21,7 @@
                 <div class="skew-1 bg-red lg:px-9 px-3 lg:py-1.5 py-1 lg:w-44 w-24 font-bold text-center">
                     <div class="skew-2">
                         <a class="join-now text-monda text-white lg:text-lg text-[14px] text-center whitespace-nowrap"
-                            href="https://www.play25.live/#/dash" target="_blank">
+                            (click)="openWhatsApp()">
                             Join Now
                         </a>
                     </div>
@@ -36,21 +36,17 @@
                 </div>
             </div>
             <div class="social-icons lg:flex items-center hidden">
-                <a class="w-14 h-14" *ngIf="respData?.TWITTER" [href]="respData.TWITTER"target="_blank">
-                    <img src="assets/images/icons/twitter.png"
-                       alt="footer-logo.png">
+                <a class="w-14 h-14" *ngIf="respData?.TWITTER" [href]="respData.TWITTER" target="_blank">
+                    <img src="assets/images/icons/twitter.png" alt="footer-logo.png">
                 </a>
-                <a class="w-14 h-14"*ngIf="respData?.FACEBOOK" [href]="respData.FACEBOOK" target="_blank">
-                    <img src="assets/images/icons/facebook.png"
-                       alt="footer-logo.png">
+                <a class="w-14 h-14" *ngIf="respData?.FACEBOOK" [href]="respData.FACEBOOK" target="_blank">
+                    <img src="assets/images/icons/facebook.png" alt="footer-logo.png">
                 </a>
-                <a class="w-14 h-14"  *ngIf="respData?.INSTAGRAM" [href]="respData.INSTAGRAM" target="_blank">
-                    <img src="assets/images/icons/instagram.png"
-                       alt="footer-logo.png">
+                <a class="w-14 h-14" *ngIf="respData?.INSTAGRAM" [href]="respData.INSTAGRAM" target="_blank">
+                    <img src="assets/images/icons/instagram.png" alt="footer-logo.png">
                 </a>
                 <a class="w-14 h-14" *ngIf="respData?.TELEGRAM" [href]="respData.TELEGRAM" target="_blank">
-                    <img src="assets/images/icons/telegram.png"
-                       alt="footer-logo.png">
+                    <img src="assets/images/icons/telegram.png" alt="footer-logo.png">
                 </a>
             </div>
         </div>
