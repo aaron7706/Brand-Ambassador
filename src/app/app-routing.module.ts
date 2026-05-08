@@ -8,6 +8,7 @@ import { BrandingPageThreeComponent } from './branding-page-three/branding-page-
 import { BrandingPageFourComponent } from './branding-page-four/branding-page-four.component';
 import { BrandingPageFiveComponent } from './branding-page-five/branding-page-five.component';
 import { BrandingPageSixComponent } from './branding-page-six/branding-page-six.component';
+import { BrandingPageSevenComponent } from './branding-page-seven/branding-page-seven.component';
 
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'nirab-hossain', component: BrandingPageThreeComponent},
   {path:'maira-shanto', component:BrandingPageFourComponent},
   {path:'samonty-shoumi', component:BrandingPageFiveComponent},
-  {path:'anika-kabir-shokh', component:BrandingPageSixComponent}
+  {path:'anika-kabir-shokh', component:BrandingPageSixComponent},
+  {path:'zeba-jannat', component:BrandingPageSevenComponent}
   
  
 ];

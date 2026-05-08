@@ -15,6 +15,7 @@ import { BrandingPageThreeComponent } from './branding-page-three/branding-page-
 import { BrandingPageFourComponent } from './branding-page-four/branding-page-four.component';
 import { BrandingPageFiveComponent } from './branding-page-five/branding-page-five.component';
 import { BrandingPageSixComponent } from './branding-page-six/branding-page-six.component';
+import { BrandingPageSevenComponent } from './branding-page-seven/branding-page-seven.component';
 
 
 
@@ -30,7 +31,8 @@ import { BrandingPageSixComponent } from './branding-page-six/branding-page-six.
     BrandingPageThreeComponent,
     BrandingPageFourComponent,
     BrandingPageFiveComponent,
-    BrandingPageSixComponent
+    BrandingPageSixComponent,
+    BrandingPageSevenComponent
   
   ],
   imports: [
