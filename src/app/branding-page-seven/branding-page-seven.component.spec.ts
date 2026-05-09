@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BrandingPageFiveComponent } from './branding-page-five.component';
+import { BrandingPageSevenComponent } from './branding-page-seven.component';
 
-describe('BrandingPageFiveComponent', () => {
-  let component: BrandingPageFiveComponent;
-  let fixture: ComponentFixture<BrandingPageFiveComponent>;
+describe('BrandingPageSevenComponent', () => {
+  let component: BrandingPageSevenComponent;
+  let fixture: ComponentFixture<BrandingPageSevenComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [BrandingPageFiveComponent]
+      declarations: [BrandingPageSevenComponent]
     });
-    fixture = TestBed.createComponent(BrandingPageFiveComponent);
+    fixture = TestBed.createComponent(BrandingPageSevenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -9,6 +9,7 @@ import { BrandingPageFourComponent } from './branding-page-four/branding-page-fo
 import { BrandingPageFiveComponent } from './branding-page-five/branding-page-five.component';
 import { BrandingPageSixComponent } from './branding-page-six/branding-page-six.component';
 import { BrandingPageSevenComponent } from './branding-page-seven/branding-page-seven.component';
+import { BrandingPageEightComponent } from './branding-page-eight/branding-page-eight.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path:'maira-shanto', component:BrandingPageFourComponent},
   {path:'samonty-shoumi', component:BrandingPageFiveComponent},
   {path:'anika-kabir-shokh', component:BrandingPageSixComponent},
-  {path:'zeba-jannat', component:BrandingPageSevenComponent}
+  {path:'zeba-jannat', component:BrandingPageSevenComponent},
+  {path:'mamnun-hasan-emon', component:BrandingPageEightComponent}
   
  
 ];
